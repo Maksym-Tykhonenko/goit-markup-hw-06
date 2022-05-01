@@ -649,8 +649,6 @@ margin-bottom: 20px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 1);
-  transition-duration: 250ms;
-  transition-timing-function: var(--primary-cubic-bezier);
 }
 .btn-close:hover {
   fill: var(--accent-color);
@@ -689,15 +687,11 @@ margin-bottom: 20px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  transition-duration: 250ms;
-  transition-timing-function: var(--primary-cubic-bezier);
 }
 .modal-svg {
   position: absolute;
   top: 11px;
   left: 12px;
-  transition-duration: 250ms;
-  transition-timing-function: var(--primary-cubic-bezier);
 }
 .modal-textarea:focus,
 .modal-input:focus {
@@ -711,9 +705,7 @@ margin-bottom: 20px;
   height: 120px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  resize: none;
-  transition-duration: 250ms;
-  transition-timing-function: var(--primary-cubic-bezier);
+  resize:none;
 }
 .modal-textarea::placeholder {
   font-size: 12px;
@@ -747,9 +739,7 @@ margin-bottom: 20px;
   justify-content: center;
 }
 .checkbox-svg {
-  fill: transparent;
-  transition-duration: 250ms;
-  transition-timing-function: var(--primary-cubic-bezier);
+  fill:transparent;
 }
 .check-input:checked + .modal-check-text .svg-wrap {
   background-color: var(--accent-color);
@@ -760,13 +750,9 @@ margin-bottom: 20px;
 }
 
 .svg-wrap {
-  margin-right: 7px;
-  transition-duration: 250ms;
-  transition-timing-function: var(--primary-cubic-bezier);
+  margin-right:7px;
 }
-.checkbox-wrap {
-  position: relative;
-}
+
 .check-input {
   position: absolute;
   z-index: -1;
@@ -819,9 +805,7 @@ margin-left: 3px;
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border: 0px;
-  transition-duration: 250ms;
-  transition-timing-function: var(--primary-cubic-bezier);
+  border: 0;
 }
 .modal-btn:hover,
 .modal-btn:focus {
