@@ -719,24 +719,24 @@ margin-bottom: 20px;
   padding: 12px 16px;
 }
 .modal-check-text {
-  margin-left: 14px;
-  margin-bottom: 4px;
-  padding-top: 20px;
-  color: rgba(117, 117, 117, 1);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
+    margin-left: 14px;
+    margin-bottom: 4px;
+    padding-top: 20px;
+    color: rgba(117, 117, 117, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
 }
 .modal-check-text span {
-  width: 16px;
-  height: 15px;
-  border: 2px solid #303030;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 16px;
+    height: 15px;
+    border: 2px solid #303030;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .checkbox-svg {
   fill:transparent;
@@ -751,6 +751,7 @@ margin-bottom: 20px;
 
 .svg-wrap {
   margin-right:7px;
+
 }
 
 .check-input {
