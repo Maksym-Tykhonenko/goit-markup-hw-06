@@ -734,9 +734,6 @@ margin-bottom: 20px;
     height: 15px;
     border: 2px solid #303030;
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .checkbox-svg {
   fill:transparent;
@@ -751,6 +748,7 @@ margin-bottom: 20px;
 
 .svg-wrap {
   margin-right:7px;
+  margin-bottom: 1px;
 
 }
 
