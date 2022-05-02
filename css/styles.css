@@ -586,6 +586,7 @@ margin-bottom: 20px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
+  cursor: pointer;
 }
 .foot-form-input {
   padding-top: 0;
